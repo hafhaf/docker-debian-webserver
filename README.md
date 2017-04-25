@@ -1,9 +1,11 @@
-Debian jessie webserver with the following (most important) packages:
-- nginx
-- php5
-- redis-server
+# Debian jessie webserver startkit
 
-Extended with the following upgraded packages:
-- node 6.10
-- postgresql 9.6
-- mongodb 3.4
+Uses the following (most important) packages from debian jessi:
+ * nginx
+ * php5
+ * redis-server
+
+Extendeds with the following upgraded packages:
+ * node 6.10
+ * postgresql 9.6
+ * mongodb 3.4
