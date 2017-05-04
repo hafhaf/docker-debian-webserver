@@ -8,7 +8,7 @@ RUN \
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
     apt-get install -y nodejs && \
-    npm -g install yarn "gulpjs/gulp#4.0" forever pm2 grunt-cli bower && \
+    npm -g install yarn "gulpjs/gulp#4.0" forever pm2 grunt-cli bower redis-commander && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 RUN \
